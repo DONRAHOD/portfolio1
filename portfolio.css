@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: url(images/background.webp)no-repeat center center fixed;
+    background-size: cover;
+}
+#navbar{
+    border: 10px solid;
+    border-color:transparent;
+    border-radius: 8px;
+    margin:10px 20px 0px 15px;
+    font-size: 30px;
+    background-color: #0e1a2bc1;
+}
+a:hover{
+    color: rgba(255, 0, 170, 0.823);
+    font-size: 31px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+#about{
+    margin-top: 100px;
+    width: auto;
+    text-align: center;
+    height: 400px;
+}
+button{
+    margin-top: 40px;
+}
+.box{
+    border: 1px solid;
+    border-radius: 10px;
+    width:500px;
+    height: auto;
+    text-align: center;
+    font-size: 40px;
+
+    margin-top: 5px;
+    margin-left: 33%;
+        border-color: rgba(10, 104, 191, 0.578);
+    background-color: rgba(10, 104, 191, 0.578);
+    color:rgba(212, 202, 192, 0.711);
+}
+.box1{
+    border: 1px solid;
+    width: 450px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 35%;
+    background-color: rgba(0, 255, 255, 0.323);
+    border-color: transparent;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.847);
+}
+.foot{
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+}

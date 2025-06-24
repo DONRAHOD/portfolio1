@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    background: url(images/lulu.webp)no-repeat center center fixed;
+    background-size: cover;
+}
+#navbar{
+    border: 10px solid;
+    border-color:transparent;
+    border-radius: 8px;
+    margin:10px 20px 0px 15px;
+    font-size: 30px;
+    background-color: #0e1a2bc1;
+
+}
+a:hover{
+    color: rgba(255, 0, 170, 0.823);
+    font-size: 31px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.image {
+     margin-left: 1000px;
+     margin-top: 100px;
+}
+.para{
+    background: #14a5e853;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+    max-width: 500px;
+}
+p{
+    display: block;
+    font-size: 20px;
+font-weight:400;
+}
+.lol{
+    max-width: 1200px;
+    padding: 64px 32px;
+    margin-left: 120px;
+}
+.grids{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,  minmax(300px, 1fr));
+}
+h1{
+    font-size: 40px;
+    color:  rgb(178, 140, 34);
+}
+.para:hover{
+    box-shadow: 0 5px 20px rgb(0, 0, 0);
+    transition: 0.3s;
+    background:  #0c6f9d;;
+}
+.foot{
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+}
