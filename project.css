@@ -21,7 +21,7 @@ a:hover{
     transition: 0.4s;
 }
 body{
-    background: url(lol.webp)no-repeat center fixed;
+    background: url(images/lol.webp)no-repeat center fixed;
     background-size: cover;
 }
 
